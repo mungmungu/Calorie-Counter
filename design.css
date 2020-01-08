@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background : lightblue;
+}
+
+h1 {
+    background-color: #f44336;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+  }
+
+
+ul {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+input[type=button] {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+img {
+    width="460" height="345";
+}
